@@ -49,6 +49,8 @@ When the game is over, stats table is shown alongside with "Restart" and "Quit" 
 
 ## Walkthrough
 
+*Android CMake plugin is required for this game*
+
 This game uses the OpenGL Mathematics (GLM) library, available at: http://glm.g-truc.net/ <br>
 The only purpose of this library in this project was to provide vectors/matrix data structures and operations with them.
 
