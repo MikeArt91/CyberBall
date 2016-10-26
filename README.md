@@ -19,7 +19,7 @@ Technical Requirements:
 
 I took these restrictions very seriously. So none of this libraries are present in this project, even no png loaders.
 
-Textures and geometry are hard-coded in code, which works for small demos like this, but doesn't scale well to real games.
+Textures and some part of geometry is hard-coded in code, which works for small demos like this, but doesn't scale well to real games.
 
 *This game uses Android CMake plugin*
 
@@ -37,6 +37,7 @@ The game's main menu scene. It renders "Play" and "About" buttons on the interfa
 It is the main gameplay scene. The whole game logic is contained in the PlayScene class. I recommend to start reading from
 the DoFrame() method and it should become clear. It's a standard game loop that handles input, updates the world, checks for collisions and renders.
 <br>In addition to gameplay, an HUD with score and signs is presented. <br>
+Best Score is stored inside the local memory of device, and loads while PlayScene is initializing. <br>
 When the game is over, stats table is shown alongside with "Restart" and "Quit" buttons.
 
 ### Screenshots from the PlayScene:
