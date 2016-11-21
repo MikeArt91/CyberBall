@@ -2,7 +2,7 @@
 #### Android NDK Test Project
 
 APK is availiable for download via that link:
-https://www.dropbox.com/s/i8cls1t81za58or/CyberBall.apk?dl=0
+<a href="https://www.dropbox.com/s/i8cls1t81za58or/CyberBall.apk?dl=0">CyberBall.apk</a> 
 
 Task Description: Make your own version of very popular (and frustrating) game using Android NDK. 
 - "Bird" is flying to the right side affected by gravity. Touching the screen throws the "bird" up.
